@@ -28,10 +28,10 @@
     proxy-agent "^3.0.3"
     ws "^6.0.0"
 
-"@pm2/agent@^0.5.11":
-  version "0.5.22"
-  resolved "https://registry.yarnpkg.com/@pm2/agent/-/agent-0.5.22.tgz#df1558b9fd077ae0b6e9cc3c6f13449746d063d6"
-  integrity sha512-f858kJafdzRwl00xUlbrw/bBSY3P7jubNFCkxQ2CVACW/XU40GRz2aWmddgR7lrIPrnQQWUq3fr/ENEJnnSZ7w==
+"@pm2/agent@^0.5.22":
+  version "0.5.23"
+  resolved "https://registry.yarnpkg.com/@pm2/agent/-/agent-0.5.23.tgz#1cb7b868e7f4d49c701506be1587bcbe791bccc0"
+  integrity sha512-mviwkRt51y3wY161uxiqXc0wyHTjgo+sIkJ/Mh6m400dYAnAGQ12LFlK56EbnQRwPfPog0q6txqncbFpn4L5zA==
   dependencies:
     async "^2.6.0"
     chalk "^2.3.2"
@@ -61,10 +61,10 @@
     tslib "1.9.3"
     vxx "1.2.2"
 
-"@pm2/js-api@^0.5.15":
-  version "0.5.43"
-  resolved "https://registry.yarnpkg.com/@pm2/js-api/-/js-api-0.5.43.tgz#6460a929fbb0816b78a27fa59e4eef7e4120be41"
-  integrity sha512-mRSjJM6JBu5Bophz8xQiRLlE5/SyLeQM3KW0xmUkiCiGoqnNoYVhaGm+JTsaxB94NDHiPIlwww+hbQktMGW2vQ==
+"@pm2/js-api@^0.5.43":
+  version "0.5.49"
+  resolved "https://registry.yarnpkg.com/@pm2/js-api/-/js-api-0.5.49.tgz#e6589a31f2cdf2c2e8dc45bd008674c80f9427b8"
+  integrity sha512-H5BP9aAYLadqqKzs8qWisb2Gt9rnWzYfocn42+UKFVSEsDrGpV18dNi8nexIJ3Lm+Z7vraxtQ42K7EQgslJwdA==
   dependencies:
     async "^2.4.1"
     axios "^0.16.2"
@@ -2572,10 +2572,10 @@ pm2-axon@3.3.0, pm2-axon@^3.2.0:
     debug "^3.0"
     escape-regexp "0.0.1"
 
-pm2-deploy@^0.3.9:
-  version "0.3.10"
-  resolved "https://registry.yarnpkg.com/pm2-deploy/-/pm2-deploy-0.3.10.tgz#5b6689df8db2390589244b7c15c563bd467093f6"
-  integrity sha512-WagPKsX+LDCe8wLCL5nzu8RQvVUQ5GlFdJRVYCL0ogFnHfYRym91qNU4PkNSWSq11pdvG8la7DTjdW6FWXc8lw==
+pm2-deploy@^0.4.0:
+  version "0.4.0"
+  resolved "https://registry.yarnpkg.com/pm2-deploy/-/pm2-deploy-0.4.0.tgz#d543076919f7776c57eb75841a4320f547287661"
+  integrity sha512-3BdCghcGwMKwl3ffHZhc+j5JY5dldH9nq8m/I9W5wehJuSRZIyO96VOgKTMv3hYp7Yk5E+2lRGm8WFNlp65vOA==
   dependencies:
     async "^2.6"
     tv4 "^1.3"
@@ -2587,14 +2587,14 @@ pm2-multimeter@^0.1.2:
   dependencies:
     charm "~0.1.1"
 
-pm2@^3.2.4:
-  version "3.2.4"
-  resolved "https://registry.yarnpkg.com/pm2/-/pm2-3.2.4.tgz#fb9c0ed402e04ce8f6d6e1ae935a765aa0e95c89"
-  integrity sha512-UlMsa8Tbdq5B9LJWW+sEZ1xpQv/lP7pkXKpyT2jyvIWOy+IzO60MGsLvkNEmPdyzgwi/S1qQK/FM/4DCCAu37w==
+pm2@^3.2.9:
+  version "3.2.9"
+  resolved "https://registry.yarnpkg.com/pm2/-/pm2-3.2.9.tgz#6e0e009355fa089007689d97c6565f6b3e341476"
+  integrity sha512-dlNIwmbsRe+Ttculrjj776ILtP5rjDsykxCOhpZB+ioCsnOmRUGJHrWCdmoOjcyHgA5tvE/X0s9M1J/hYsRKGQ==
   dependencies:
-    "@pm2/agent" "^0.5.11"
+    "@pm2/agent" "^0.5.22"
     "@pm2/io" "~2.4.2"
-    "@pm2/js-api" "^0.5.15"
+    "@pm2/js-api" "^0.5.43"
     async "^2.6.1"
     blessed "^0.1.81"
     chalk "^2.4.1"
@@ -2613,7 +2613,7 @@ pm2@^3.2.4:
     pidusage "^2.0.14"
     pm2-axon "3.3.0"
     pm2-axon-rpc "^0.5.1"
-    pm2-deploy "^0.3.9"
+    pm2-deploy "^0.4.0"
     pm2-multimeter "^0.1.2"
     promptly "^2"
     semver "^5.5"
