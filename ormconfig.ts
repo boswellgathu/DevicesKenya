@@ -9,19 +9,19 @@ const config: ConnectionOptions = {
   password: config_env.password,
   database: config_env.database,
   entities: [
-    'db/entities/**/*.ts'
+    'dist/db/entities/**/*.js'
   ],
   migrations: [
-    'db/migrations/**/*.ts'
+    'dist/db/migrations/**/*.js'
   ],
   subscribers: [
-    'db/subscribers/**/*.ts'
+    'dist/db/subscribers/**/*.js'
   ],
   cli: {
     entitiesDir: 'db/entities',
-    migrationsDir: './db/migrations',
+    migrationsDir: 'db/migrations',
     subscribersDir: 'db/subscribers'
   }
-};
+}
 
-export = config;
+export = config

@@ -9,7 +9,8 @@
     "prestart": "yarn run build",
     "start": "pm2 start dist/src/index.js",
     "test": "echo \"Error: no test specified\" && exit 1",
-    "type:cli": "ts-node ./node_modules/.bin/typeorm"
+    "type:cli": "ts-node ./node_modules/.bin/typeorm",
+    "stop": "pm2 stop 0"
   },
   "repository": "git@github.com:boswellgathu/DevicesKenya.git",
   "author": "Boswell Gathu <boswell.gathu@andela.com>",
