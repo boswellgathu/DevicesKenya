@@ -8,8 +8,7 @@ import UserRouter from './users/user.routes'
 import { ConnectionOptions, createConnection } from 'typeorm'
 import options from '../ormconfig'
 
-const env: ConnectionOptions = options
-createConnection(env).then( async (connection) => {
+createConnection(options).then( async (connection) => {
   const { port } = config
   const app = express()
   app.use(logger('dev'))

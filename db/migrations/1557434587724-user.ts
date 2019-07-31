@@ -15,7 +15,7 @@ export class User1557434587724 implements MigrationInterface {
           "photoUrl" character varying NOT NULL,
           "dateCreated" date NOT NULL,
           "dateModified" date NOT NULL,
-          "dateClosed" date NOT NULL,
+          "dateClosed" date,
           CONSTRAINT "PK_a3ffb1c0c8416b9fc6f907b7433" PRIMARY KEY ("id"))`);
     }
 

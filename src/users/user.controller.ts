@@ -20,8 +20,7 @@ async function createUser(req: Request, res: Response) {
   const user = userRepo.create({
     username: 'banger_hanrder', firstName: 'banger', lastName: 'harder',
     email: 'harder@info.com', password: 'Mathogothogo', isActive: true,
-    photoUrl: 'rea-lly.com', dateCreated: '2019-04-28 20:31:07.13319', dateModified: '2019-05-05 20:31:07.13319',
-    dateClosed: '2019-05-05 20:31:07.13319'
+    photoUrl: 'rea-lly.com'
   })
   await userRepo.save(user)
   res.send(user)

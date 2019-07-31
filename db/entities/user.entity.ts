@@ -1,12 +1,11 @@
-import { Column, Entity, Generated, PrimaryGeneratedColumn } from 'typeorm'
+import { CreateDateColumn, UpdateDateColumn, Column, Entity, PrimaryGeneratedColumn } from 'typeorm'
 
 @Entity('users')
 export class User {
     @PrimaryGeneratedColumn()
     id: number;
 
-    @Column()
-    @Generated('uuid')
+    @Column({type: 'uuid', nullable: false})
     userHandle: string;
 
     @Column()
@@ -30,10 +29,10 @@ export class User {
     @Column()
     photoUrl: string;
 
-    @Column('date')
+    @CreateDateColumn()
     dateCreated: string;
 
-    @Column('date')
+    @UpdateDateColumn()
     dateModified: string;
 
     @Column('date')
