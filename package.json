@@ -18,7 +18,7 @@
   "private": false,
   "dependencies": {
     "body-parser": "^1.18.3",
-    "dotenv": "^6.2.0",
+    "dotenv": "^9.0.1",
     "express": "^4.16.4",
     "morgan": "^1.9.1",
     "pg": "^7.7.1",
